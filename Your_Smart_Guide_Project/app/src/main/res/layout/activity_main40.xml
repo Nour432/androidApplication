@@ -1,0 +1,3475 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity17"
+    android:orientation="vertical"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#b3a5d5"
+        android:id="@+id/toolbar"
+        android:layout_marginTop="0dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/universitylogo"
+                android:layout_marginLeft="-20dp"
+
+                ></ImageView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:src="@drawable/facultylogo"
+
+                ></ImageView>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://s...content-available-to-author-only...d.com/apk/res-auto"
+        android:background="@drawable/draw2" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Courses"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:layout_margin="12dp"
+                android:textStyle="bold"
+                android:id="@+id/text"
+                >
+            </TextView>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="2"
+                android:rowCount="5"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/mainGrid"
+                >
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/card1"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardUseCompatPadding="true"
+                    android:layout_gravity="fill"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="SAFS 101"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="الأمن والسلامة"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 1 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/card2"
+                    app:cardUseCompatPadding="true"
+                    android:layout_gravity="fill"
+                    app:cardBackgroundColor="@color/white"
+
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="HURI 101"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="Name :حقوق الإنسان"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : -"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/card3"
+                    app:cardUseCompatPadding="true"
+                    android:layout_gravity="fill"
+                    app:cardBackgroundColor="@color/white"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="MATH 101"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="تفاضل و تكامل(1)"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 4 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/card4"
+                    app:cardUseCompatPadding="true"
+                    android:layout_gravity="fill"
+                    app:cardBackgroundColor="@color/white"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="PHYS 101"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="فيزياء عامة (1) "
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 4 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/card5"
+                    app:cardUseCompatPadding="true"
+                    android:layout_gravity="fill"
+                    app:cardBackgroundColor="@color/white"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="CHEM 101"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="(1)كيمياء عامة "
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 3 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/card6"
+                    app:cardUseCompatPadding="true"
+                    android:layout_gravity="fill"
+                    app:cardBackgroundColor="@color/white"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="CHEM 103"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="(1) عملي كيمياء عامة"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 1 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_margin="10dp"
+                    app:cardUseCompatPadding="true"
+                    android:layout_gravity="fill"
+                    android:id="@+id/card7"
+                    app:cardBackgroundColor="@color/white"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="BOTA 101"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="(1)أساسيات علم النبات"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/card8"
+                    app:cardUseCompatPadding="true"
+                    android:layout_gravity="fill"
+                    app:cardBackgroundColor="@color/white"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="ZOOL 101"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="(1) علم الحيوان "
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course :None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/card91"
+                    app:cardUseCompatPadding="true"
+                    android:layout_gravity="fill"
+                    app:cardBackgroundColor="@color/white"
+
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="BIOP 213"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="أساسيات الفيزياء الحيوية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course :PHYS 101"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/card9"
+                    app:cardUseCompatPadding="true"
+                    android:layout_gravity="fill"
+                    app:cardBackgroundColor="@color/white"
+
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="CHEM 251"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="كيمياء عضيوية [أليفاتية + أروماتية]"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : CHEM 102 "
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/card11"
+                    app:cardUseCompatPadding="true"
+                    android:layout_gravity="fill"
+                    app:cardBackgroundColor="@color/white"
+
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="ENGL 201"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="(2)لغة إنجليزية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : ENGL 102"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/card12"
+                    app:cardUseCompatPadding="true"
+                    android:layout_gravity="fill"
+                    app:cardBackgroundColor="@color/white"
+
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="ZOOL 201"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="التنوع التصنيفي في الافقاريات"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 4 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : ZOOL 102"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/card13"
+                    app:cardUseCompatPadding="true"
+                    android:layout_gravity="fill"
+                    app:cardBackgroundColor="@color/white"
+
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="ZOOL 205"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="فزيولوجيا الخلية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 1 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : ZOOL 101"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/card14"
+                    app:cardUseCompatPadding="true"
+                    android:layout_gravity="fill"
+                    app:cardBackgroundColor="@color/white"
+
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="BIOC 221"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="كيمياء حيويه"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course :None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/card15"
+                    app:cardUseCompatPadding="true"
+                    android:layout_gravity="fill"
+                    app:cardBackgroundColor="@color/white"
+
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="STAT 209"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="مفاهيم إحصائية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 1 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course :None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/card16"
+                    app:cardUseCompatPadding="true"
+                    android:layout_gravity="fill"
+                    app:cardBackgroundColor="@color/white"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="ZOOL 203"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="أساسيات علم البيئة"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 1 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card17"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="GEOL 255"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="مقدمة فى الجيولوجيا"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course :None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card18"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="SCTH 301"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text=" التفكير العلمي"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 1 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card19"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 305"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="الخلية والبيولوجيا الجزيئية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 3 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : ZOOL 102"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card20"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 303"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="بيئة حيوانية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 3 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : ZOOL 203"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card21"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 309"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="الجهاز الدوري وعلم المناعة"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 4 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Cours: ZOOL 210"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card22"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="STAT 321"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="إحصاء حيوى"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : STAT 209"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200">
+                    </TextView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card23"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ENTM 331"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="حشرات طبية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : ENTM 101"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card24"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 307"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="وراثة السرطان"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : ZOOL 204"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card25"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 331"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="موضوعات مختارة"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card26"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="SKIL 401"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="مهارات العمل"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 1 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course :None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card27"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="ENCU 401"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text=" ثقافة بيئية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 1 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course :None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card28"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="GHDS 401"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="نشاة وتاريخ وتطور العلوم"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 1 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card29"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 401"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="علم الطفيليات"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 3 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : ZOOL 201"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card30"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 403"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="فسيولوجيا الجهاز العصبي والعضلي "
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 3 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : ZOOL 306"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card39"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 405"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="التنفس والاخراج"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : Z00L 309"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card40"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 411"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="علم الأجنة التجريبى"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 3 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : ZOOL 302"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card42"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 407"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="المقال العلمي "
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 1 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card43"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 413"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="الساعة البيولوجية والإشارات الخلوية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 1 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : ZOOL 306"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card44"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 415"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="بيولوجيا الاورام"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : ZOOL 305"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card45"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 417"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="علم السموم والتليوث البيئى"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card46"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 423"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="علم البيولوجيا الإشعاعية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card47"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 425"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="علم تشوهات الاجنة"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : ZOOL 302"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card48"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 429"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="موضوعات مختارة"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card49"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 427"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="الجينو والبروتيوم"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : ZOOL 304"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card50"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 207"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="مقدمة في علم الافقاريات"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 3 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course :ZOOL 102"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card51"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 209"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="مقدمة في علم الوراثة"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 1 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : ZOOL 102"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card52"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="CHEM 261"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="كيمياء عضوية أليفاتية أحادية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 3 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card53"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="CHEM 271"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="كيمياء غير عضوية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course :None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card54"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="CHEM 281"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="أساسيات الكيمياء التحليلية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course :None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card55"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 419"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="أساسيات علم البيئة المائية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : ZOOL 207"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card56"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 421"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="علم فزيولوجى (2)"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 4 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : ZOOL 322"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card57"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="CHEM 471"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="الكيمياء الحيوية غير عضوية والطيفية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course :None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card58"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="CHEM 461"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="[تفاعلات]كيمياء عضوية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 4H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card59"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="CHEM 491"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="كيمياء فيزيائية [اليديناميكا]"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 1H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card60"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="CHEM 463"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="كمياء [بيروي +نيوكلويدا] "
+                        android:textSize="10sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card61"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="CHEM 481"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="كيمياء حيوية تحليلية "
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card62"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="CHEM 493"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="كيمياء الاسمنت+ قاعدة الصنف"
+                        android:textSize="10sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course :None "
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card63"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ZOOL 301"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="بيولوجيا الحماية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card64"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="CHEM 361"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="الكيمياء الفراغية والسكريات "
+                        android:textSize="10sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card65"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="CHEM 371"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="كيميياء تناسقية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card66"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="CHEM 381"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="الكيمياء الخضراءا"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 1 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card67"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="CHEM 383"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="الكيمياء غير العضوية لتطبيقية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card68"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="CHEM 391"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="كيمياء السطوح 1 الحفز والخواص الطبيعية"
+                        android:textSize="9sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 3 H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card69"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="CHEM 393"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="(2)كيمياء كهربية"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 1H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course : None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card70"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="fill"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="CHEM 363"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="40dp"
+                        android:text="الأحماض الأمينيةوالأنثوسيانيات"
+                        android:textSize="10sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="60dp"
+                        android:text="Credit Hour : 2H"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="80dp"
+                        android:text="Requird Course:None"
+                        android:textSize="13sp"
+                        android:textColor="@color/purple_200"
+                        >
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+            </GridLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#b3a5d5"
+        android:id="@+id/toolbar2"
+        android:layout_marginTop="-50dp"
+        >
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:src="@drawable/home"
+                android:layout_marginLeft="-20dp"
+                android:clickable="true"
+                android:foreground="@drawable/effect"
+                android:id="@+id/home"
+                ></ImageView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginLeft="25dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/user"
+                android:layout_marginBottom="-1dp"
+                android:foreground="@drawable/effect"
+                android:clickable="true"
+                android:id="@+id/person"
+                ></ImageView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginLeft="25dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/mailphone"
+                android:layout_marginBottom="-5dp"
+                android:foreground="@drawable/effect"
+                android:clickable="true"
+                android:id="@id/contact"
+                ></ImageView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginLeft="25dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/baseline_navigate_next_24"
+                android:layout_marginBottom="-3dp"
+                android:foreground="@drawable/effect"
+                android:clickable="true"
+                android:id="@+id/next"
+
+                ></ImageView>
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+</LinearLayout>
+
+

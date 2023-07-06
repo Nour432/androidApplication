@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="botany">قسم علم النبات </string>
+    <string name="zoology">قسم علم الحيوان </string>
+    <string name="geology">قسم جيولوجيا </string>
+    <string name="chemistry">قسم الكيمياء </string>
+    <string name="biochemistry">قسم الكيمياء الحيوي </string>
+    <string name="microbolgy">قسم الميكروبيولجي </string>
+    <string name="geophysics">قسم الجيوفيزياء </string>
+    <string name="entomology">قسم الحشرات </string>
+    <string name="physics">قسم الفيزياء </string>
+    <string name="math">قسم الرياضيات </string>
+    <string name="selectdepartment">اختر قسمك</string>
+
+
+    <string name="stude">طالب </string>
+    <string name="advisor">مرشد </string>
+
+
+
+    <string name="select_semester">اختر الترم الخاص بك</string>
+    <string name="semester1">الترم الاول</string>
+    <string name="semester2">الترم الثاني</string>
+
+
+
+    <string name="complaint">الشكوي</string>
+    <string name="submit">ارسال </string>
+
+
+    <string name="news"> الاخبار </string>
+
+    <string name="events">الاحداث</string>
+    <string name="compliants">الشكاوي</string>
+    <string name="advertisements">الاعلانات</string>
+    <string name="improve">تحسين المعدل التراكمي</string>
+    <string name="gpa">حساب المعدل التراكمي</string>
+    <string name="courseregistration">تسجيل المواد</string>
+    <string name="summer">تسجيل المواد الصيفيه</string>
+
+
+
+
+    <string name="sign">سجل</string>
+    <string name="already"> انت بالفعل لديك ايميل</string>
+    <string name="signup">صفحه تسجيل الدخول</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="name"> الاسم</string>
+    <string name="phone">رقم الهاتف</string>
+
+
+
+    <string name="notyet"> لم تسجل بعد؟ سجل الان  </string>
+    <string name="forget"> هل نسيت الرقم السري </string>
+    <string name="Password">الرقم السري</string>
+    <string name="National">الرقم القومي</string>
+    <string name="loGin">صفحه التسجيل</string>
+    <string name="login">تسجيل</string>
+    <string name="hello">مرحبا</string>
+
+
+
+
+
+
+
+</resources>

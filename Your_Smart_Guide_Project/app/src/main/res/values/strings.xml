@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Your_Smart_Guide_Project</string>
+
+
+    <string name="botany">Botany Department </string>
+    <string name="zoology">Zoology Department </string>
+    <string name="geology">Geology Department </string>
+    <string name="chemistry">Chemistry Department </string>
+    <string name="biochemistry">Biochemistry Department </string>
+    <string name="microbolgy">Microbiology Department </string>
+    <string name="geophysics">Geophysics Department </string>
+    <string name="entomology">Entomology Department </string>
+    <string name="physics">Physics Department </string>
+    <string name="math">Matheamatics Department </string>
+
+
+    <string name="select_semester">Select Your Semester</string>
+    <string name="semester1">Semester 1</string>
+    <string name="semester2">Semester 2</string>
+
+    <string name="stude">Student </string>
+    <string name="advisor">Advisor </string>
+    <string name="complaint">Complaint</string>
+    <string name="submit">Submit </string>
+
+
+    <string name="news">  News  </string>
+    <string name="events">Events</string>
+    <string name="compliants">Complaints</string>
+    <string name="advertisements">Advertisements</string>
+    <string name="improve">Improve GPA</string>
+    <string name="gpa">GPA calc</string>
+    <string name="courseregistration">Course Registration</string>
+    <string name="summer">Summer Course Registration</string>
+
+
+    <string name="sign">Sign Up</string>
+    <string name="already">Already an user? Login</string>
+    <string name="signup">SIGN UP</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="selectdepartment">Select Your Department</string>
+
+
+    <string name="notyet"> Not yet registered? SignUp Now  </string>
+    <string name="forget">forget password </string>
+    <string name="Password">Password</string>
+    <string name="National">National ID</string>
+    <string name="loGin">LOGIN</string>
+    <string name="login">Login</string>
+
+    <string name="hello">hello world</string>
+
+    <string-array name="grade">
+        <item> 0 </item>
+        <item> A </item>
+        <item> A- </item>
+        <item> B+ </item>
+        <item> B</item>
+        <item> C+ </item>
+        <item> C </item>
+        <item> D </item>
+        <item> F </item>
+        <item> Abs </item>
+        <item> I </item>
+        <item> W </item>
+        <item> Ba </item>
+    </string-array>
+
+
+    <string-array name="cridet">
+        <item> 0 </item>
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+    </string-array>
+
+</resources>
